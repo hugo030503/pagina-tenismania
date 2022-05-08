@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="logo1.png" />
+		<style type="Text/css">
+		table{
+		margin:auto;
+		background-color:#EAF481;
+		height:400px;
+		width:36%;
+		}
+		body{
+		background-color:#B2C029;
+		}
+		h1{
+		color:white;
+		text-shadow:1px 1px 20px #818B21;
+		text-align:center;
+		}
+		h2{
+		text-align:center;
+		}
+		h4{
+		text-align:center;
+		}
+		address{
+		text-align:center;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>Asociación Hornachega de Tenis</h1>
+		<hr />
+		<h2>Reserva tu pista</h2>
+		<h4>C/Severo Ochoa 45 (Hornachos)</h4>
+		<form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+			<table>
+				<tr>
+					<td>Nombre: (requerido)</td>
+					<td><input type="text"></td>
+					<td rowspan="3"><img src="logo.jpg" height="100"required ></td>
+				</tr>
+				<tr>
+					<td>Correo eléctrónico(requerido)</td>
+					<td><input type="email" name="Correo electrónico" required ></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr>
+					<td>Teléfono(requerido)</td>
+					<td><input type="tel" name="teléfono" required ></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr>
+					<td>Fecha de Reserva</td>
+					<td><input type="date" name="fecha de reserva" required ></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr>
+					<td>Franja Horaria(de 10:00 a 20:00)</td>
+					<td><input type="time" name="Hora de reserva" min="10:00" max="20:00"required ></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr>
+					<td>Jugadores(min 2, max 4)</td>
+					<td><input type="number" name="Número de comensales" min="2" max="4"></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr>
+					<td>Tipo de pista</td>
+					<td><textarea rows="2" cols="20" name="Tipo de pista" placeholder="Tierra batida, césped o pista dura. "></textarea></td>
+					<td colspan="2"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Enviar" /></td>
+					<td colspan="2"></td>
+				</tr>
+			</table>
+		</form>
+		<br />
+		<br />
+		<address>
+		Página web de la Asociación Hornachega de Tenis<br />
+		Avda. de España<br />
+		Hornachos<br />
+		España<br />
+		</address>
+	</body>
+</html>

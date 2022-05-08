@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="logo1.png" />
+		<style type="Text/css">
+		td{
+		background-color:#21E26D;
+		text-align:center;
+		}
+		th{
+		background-color:#51A246;
+		}
+		table{
+		height:500px;
+		width:1000px;
+		margin:auto;
+		}
+		h1{
+		text-align:center;
+		text-shadow:1px 1px 20px #fff;
+		font:italic;
+		letter-spacing:4px;
+		}
+		address{
+		text-align:center;
+		}
+		hr{
+		height:3px;
+		color:green;
+		}
+		</style>
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>Clasificación ATP</h1>
+			</header>
+			<main>
+				<br />
+				<br />
+				<table>
+					<tr>
+						<th>Clasificación:</th>
+						<th colspan="3">Grandes Conquistas</br></th>
+						<th colspan="2">Puntos ATP</br></th>
+					</tr>
+					<tr>
+						<th><img src="2.png" /><br /><br />1. Novak Djokovic</th>
+						<td>9 Abiertos de Australia</td>
+						<td>2 Roland Garros</td>
+						<td>6 Wimblendom</td>
+						<td>8.400</td>
+					</tr>
+					<tr>
+						<th><img src="1.png" /><br /><br />2. Daniil Medvedev</th>
+						<td>1 USA Open</td>
+						<td>1 Atp World Tour</td>
+						<td>1 Cinccinati Open</td>
+						<td colspan="2">8.080</td>
+					</tr>
+					<tr>
+						<th><img src="3.png" /><br /><br />3. Alexander Zverev</th>
+						<td>2 ATP Finals</td>
+						<td>1 Abierto Mexicano</td>
+						<td>1 Master de Canadá</td>
+						<td>7.420</td>
+					</tr>
+					<tr>
+						<th><img src="4.png" /><br /><br />4. Rafael Nadal</th>
+						<td>13 Roland Garros</td>
+						<td>4 USA Open</td>
+						<td>2 Wimblendon</td>
+						<td>6.435</td>
+					</tr>
+					<tr>
+						<th><img src="5.png" /><br /><br />5. Stefanos Tsitsipas</th>
+						<td>1 Copa de Maestros</td>
+						<td>2 Master 1000 Montecarlo</td>
+						<td>1 NextGen Finals</td>
+						<td>5.690</td>
+					</tr>
+					<tr>
+						<th colspan="5"><a href="https://www.atptour.com/es/rankings/singles"/> Resto del ranking</th>
+					<tr>
+				</table>
+				
+				<br />
+				<br />
+				<hr />
+			</main>
+			<footer>
+				<address>
+					Página web de la Asociación Hornachega de Tenis<br />
+					Avda. de España<br />
+					Hornachos<br />
+					España<br />
+				</address>
+			</footer>
+		</div>
+	</body>
+</html>
